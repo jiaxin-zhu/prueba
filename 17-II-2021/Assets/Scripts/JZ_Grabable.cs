@@ -7,7 +7,7 @@ public class JZ_Grabable : MonoBehaviour
     public GameObject m_child; //gameobject that we are grabbing
     public Transform m_parent;//parent to which we attach the child
     public bool carryObject;//if the object is being carried
-    public bool m_droppable;//if the object can be dropped or not
+    //public JZ_ItemDrop m_dropabble;//if the object can be dropped or not
 
     void Update()
     {
@@ -35,8 +35,7 @@ public class JZ_Grabable : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.R))
         {
-                carryObject = false; //we aren't carrying the object
-            
+            carryObject = false; //we aren't carrying the object  
         }
 
         if (carryObject == false)
