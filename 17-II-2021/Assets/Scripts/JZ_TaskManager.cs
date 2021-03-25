@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class JZ_TaskManager : MonoBehaviour
 {
 
@@ -12,8 +13,8 @@ public class JZ_TaskManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        m_taskCompleted = new bool[m_tasks.Length]; //right from the start, both arrays have the same size
-        m_tasks[0].StartTask();
+        /*m_taskCompleted = new bool[m_tasks.Length]; //right from the start, both arrays have the same size
+        m_tasks[0].StartTask();*/
     }
 
     // Update is called once per frame
